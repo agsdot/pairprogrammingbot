@@ -1,0 +1,54 @@
+<doctype html>
+<html>
+<head>
+	<title>my calc
+	</title>
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/style.css" >
+</head>
+<!-- <body>
+<div>
+
+<%= yield %>
+
+</div>
+</body>
+ -->
+<body>
+  <div id='container'>
+    <div class='row'>      
+      <div>
+        <p class="linkright">
+
+        <a href="http://pairprogrammingbot.com/selenium/TestRunner.html?test=/tests/TestSuite.html">[run tests]</a>)
+
+        </p> 
+      </div>
+    </div>  
+    
+
+    <div class='row'>      
+      <div>
+        <p class="text">
+    	   <%= @text %>
+        </p> 
+      </div>
+    </div>  
+    
+    <div class='row'>
+      <ul class="buttons">
+    		<%= yield %>
+      </ul>
+    </div>
+    <div>
+      <p class="linkleft">
+        (<a href="/beck.html">inspiration</a>)
+      </p>
+    </div>
+  </div>
+  </body>
+</html>
+
+
+
+</html>

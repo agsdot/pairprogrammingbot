@@ -1,0 +1,93 @@
+/*div {
+	border: 1px solid #f0f;
+}*/
+
+/*.row {
+	text-align: center;
+}*/
+
+body {
+	background-color: black;
+}
+
+#container {
+	text-align:center;
+    font-family: "Tahoma", "Verdana", "Helvetica", "Arial", sans-serif;
+
+}
+
+.linkleft {
+	text-align: left;
+	margin-top: 250px; 
+	color: green;
+}
+
+.linkleft a:link {
+	color: green;
+}
+
+.linkright {
+	text-align: right;
+
+}
+
+.linkright a:link {
+	color: gray;
+}
+
+
+.text {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 200px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.buttons {
+	margin-top: 30px;
+}
+
+.btn-large {
+	margin: 0 15px;
+}
+
+
+/*
+.row {
+margin-top: 200px;
+
+}
+
+.operand {
+  font-size: 60px;
+  text-align: center;
+  line-height: 1;
+
+}
+
+
+.operator {
+ font-size: 40px;
+ text-align : center;
+  line-height: 1;
+}
+
+.result {
+	margin-top: 70px;
+	font-size: 200px;
+}
+
+
+.copyright {
+
+	text-align: center;
+		line-height: 30px;
+
+}
+.title {
+	text-align: center;
+	font-size: 45px;
+	padding: 10px;
+
+}*/
