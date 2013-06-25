@@ -2,10 +2,10 @@
 # four instance variables.
 
 # gem install --version 1.3.0 sinatra
-require 'pry'
-gem 'sinatra', '1.3.0'
+# require 'pry'
+#gem 'sinatra', '1.3.0'
 require 'sinatra'
-require 'sinatra/reloader'
+#require 'sinatra/reloader'
 #require 'sinatra/reloader' if development?
 
  get '/' do
