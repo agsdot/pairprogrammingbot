@@ -1,11 +1,9 @@
-# layout calc 
-# four instance variables.
 
 # gem install --version 1.3.0 sinatra
 # require 'pry'
-#gem 'sinatra', '1.3.0'
+gem 'sinatra', '1.3.0'
 require 'sinatra'
-#require 'sinatra/reloader'
+require 'sinatra/reloader'
 #require 'sinatra/reloader' if development?
 
  get '/' do
@@ -41,14 +39,20 @@ require 'sinatra'
  	erb :positivenegative
  end
 
-   get '/do_refactor' do
-   	 @text = 'Refactor the code.'
- 	 @done = '/pass'
- 	 erb :done
-   end
+ get '/do_refactor' do
+ 	 @text = 'Refactor the code.'
+	 @done = '/pass'
+	 erb :done
+ end
 
-   get '/new_feature' do
-   	 @text = 'Select a new feature to implement.'
- 	 @restart = '/'
- 	 erb :restart
-   end
+ get '/new_feature' do
+ 	 @text = 'Select a new feature to implement.'
+	 @restart = '/'
+	 erb :restart
+ end
+
+ get '/beck' do
+  @restart = '/'
+  erb :beck
+ end
+

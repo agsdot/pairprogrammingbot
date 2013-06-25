@@ -41,6 +41,24 @@ body {
 	color: white;
 }
 
+.beck_text {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0 180px;
+	text-align: center;
+	line-height: 120%;
+	color: white;
+}
+
+a {
+	color: #080;
+	text-decoration: none;
+}
+
+.beck_citation {
+	color: gray;
+	font-size: 20px;
+}
 .buttons {
 	margin-top: 30px;
 }
